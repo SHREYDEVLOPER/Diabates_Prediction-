@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 
-API_URL = "http://localhost:8000/predict"
+API_URL = "http://fastapi-app:8000/predict"
 
 st.title("Diabetes Prediction App")
 st.write("Enter the details below to make a prediction.")
